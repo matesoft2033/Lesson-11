@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ლექცია 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="fullname">სახელი და გვარი</label>
+        <input type="text" id="fullname" required>
+        <br>
+        <br>
+        <label for="phone-number">ტელეფონის ნომერი</label>
+        <input type="tel" id="phone-number" placeholder="+995" required>
+        <br>
+        <br>
+        <label for="email"> ელ ფოსტა</label>
+        <input type="email" id="email" placeholder="user@example.com" required>
+        <br>
+        <br>
+        <label for="age">ასაკი</label>
+        <input type="number" min="0" id="age" required>
+        <br>
+        <br>
+        <label for="password">პაროლი</label>
+        <input type="password" id="password" minlength="8" required>
+        <br>
+        <br>
+        <label for="birth-date">დაბადების თარიღი</label>
+        <input type="date" id="birth-date">
+        <input type="color">
+        <br>
+        <input type="file">
+        <br>
+        <br>
+        <label>კომენტარი</label>
+        <br>
+        <br>
+        <textarea cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+
+    <hr>
+    <h1>Radio Button</h1>
+    <h3>რომელი ტექნოლოგიის შესწავლა გსურთ?</h3>
+    <form>
+        <input type="radio" name="technologies" value="Front-end" id="Front-end">
+        <label for="Front-end">Front-end პროგრამირება</label>
+        <br>
+        <input type="radio" name="technologies" value="Back-end" id="Back-end">
+        <label for="Back-end">Back-end პროგრამირება</label>
+    </form>
+
+    <hr>
+    <div>
+    <h1>Checkbox</h1>
+    <h3>სად გააგრძელებდი სამუშაო კარიერას</h3>
+    <form>
+        <input type="checkbox" name="Google" value="Google" id="Google">
+        <label for="Google">Google</label>
+        <br>
+        <input type="checkbox" name="Apple" value="Apple" id="Apple">
+        <label for="Apple">Apple</label>
+    </form>
+    </div>
+    <div>
+        <h1>Checkbox</h1>
+        <h3>სად გააგრძელებდი სამუშაო კარიერას</h3>
+        <form>
+            <input type="checkbox" name="Google" value="Google" id="Google">
+            <label for="Google">Google</label>
+            <br>
+            <input type="checkbox" name="Apple" value="Apple" id="Apple">
+            <label for="Apple">Apple</label>
+        </form>
+        </div>
+</body>
+</html>
